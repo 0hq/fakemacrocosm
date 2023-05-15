@@ -134,7 +134,7 @@ const Home: NextPage = () => {
                 className="bold flex h-10 cursor-pointer items-center justify-center rounded bg-[#191933] px-6 font-button text-sm font-bold text-white first-letter:flex"
                 onClick={() => {
                   plausible("clicked-twitter");
-                  window.open("https://twitter.com/willdepue");
+                  window.open("https://twitter.com/macrocosmcorp");
                 }}
               >
                 Follow on Twitter

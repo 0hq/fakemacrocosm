@@ -59,15 +59,15 @@ export type Signatures = {
 };
 
 export const signatures: Array<Signatures> = [
-  {
-    image: RhodosPicture,
-    name: "Rhodos",
-    subject: "team figurehead",
-    age: "??",
-    location: "????? 🏴",
-    signature: RhodosSignature,
-    gold: false,
-  },
+  // {
+  //   image: RhodosPicture,
+  //   name: "Rhodos",
+  //   subject: "team figurehead",
+  //   age: "??",
+  //   location: "????? 🏴",
+  //   signature: RhodosSignature,
+  //   gold: false,
+  // },
   {
     image: JamesPicture,
     name: "James Lin",
