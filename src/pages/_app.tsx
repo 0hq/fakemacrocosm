@@ -3,7 +3,6 @@ import LogRocket from "logrocket";
 import PlausibleProvider from "next-plausible";
 import { SessionProvider, signIn, useSession } from "next-auth/react";
 import { DefaultSeo } from "src/components/SEO";
-import { trpc } from "src/utils/trpc";
 import { NextPage } from "next";
 import { AppProps } from "next/app";
 import { useEffect } from "react";
@@ -34,10 +33,7 @@ const Auth = ({ children }: { children: any }) => {
   return null;
 };
 
-const MyApp = ({
-  Component,
-  pageProps: { session, ...pageProps },
-}: AppPropsWithAuth) => {
+const MyApp = ({ Component, pageProps: { session, ...pageProps } }: AppPropsWithAuth) => {
   LogRocket.init("insilica-labs/colossus");
   return (
     <SessionProvider session={session}>
@@ -55,4 +51,4 @@ const MyApp = ({
   );
 };
 
-export default trpc.withTRPC(MyApp);
+export default MyApp;
