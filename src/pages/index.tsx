@@ -91,9 +91,9 @@ const Home: NextPage = () => {
               Contact us
             </button>
           </div>
-          <div className="mt-12 mb-6 h-72 rounded-lg bg-[#00001c] px-4 pb-4 pt-1.5 shadow-custom">
+          <div className="mt-12 mb-6 h-56 rounded-lg bg-[#00001c] px-4 pb-4 pt-1.5 shadow-custom">
             <h1 className="z-10 w-full bg-[#00001c] pt-1 font-semibold	">/ Signatures</h1>
-            <div className="mt-3 flex h-56 flex-col gap-3.5 overflow-auto rounded">
+            <div className="mt-3 flex h-40 flex-col gap-3.5 overflow-auto rounded">
               {signatures.map((signature, i) => (
                 <div className="static flex h-10 items-center justify-between" key={i}>
                   <div className="flex shrink-0">
