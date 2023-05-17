@@ -8,10 +8,11 @@ import { signatures } from "../configs/signatures";
 import classNames from "classnames";
 import { usePlausible } from "next-plausible";
 import { MarqueeLayout } from "src/components/basics";
+import { useEffect } from "react";
 
 const Home: NextPage = () => {
   // Styles places here for easy editing of all elements with className = <nameOfClass>
-  const paragraph = classNames("my-2 w-full text-[#e9e9ec] leading-5");
+  const paragraph = classNames("my-2 text-[17px] w-full text-[#e9e9ec]");
   const highlight = classNames("bg-[#30267c]");
   const header = classNames("font-bold text-2xl my-2.5");
   const horizonal_rule = classNames("my-2.5 border-solid border-0.1 border-[#747485]");
@@ -91,9 +92,9 @@ const Home: NextPage = () => {
               Contact us
             </button>
           </div>
-          <div className="mt-12 mb-6 h-56 rounded-lg bg-[#00001c] px-4 pb-4 pt-1.5 shadow-custom">
+          <div className="mt-12 mb-6 h-[270px] rounded-lg bg-[#00001c] px-4 pb-4 pt-1.5 shadow-custom">
             <h1 className="z-10 w-full bg-[#00001c] pt-1 font-semibold	">/ Signatures</h1>
-            <div className="mt-3 flex h-40 flex-col gap-3.5 overflow-auto rounded">
+            <div className="mt-3 flex h-52 flex-col gap-3.5 overflow-auto rounded">
               {signatures.map((signature, i) => (
                 <div className="static flex h-10 items-center justify-between" key={i}>
                   <div className="flex shrink-0">

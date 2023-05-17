@@ -7,7 +7,7 @@ import JuanDavidSignature from "../../public/signatures/JuanDavidSignature.png";
 
 import JamesPicture from "../../public/profile-pictures/James.jpg";
 import RhodosPicture from "../../public/profile-pictures/RhodosPFP.png";
-import MiguelPicture from "../../public/profile-pictures/Miguel.jpg";
+import AnantPicture from "../../public/profile-pictures/anant.jpeg";
 import AviPicture from "../../public/profile-pictures/Avi.jpg";
 import JuanDavidPicture from "../../public/profile-pictures/JuanDavid.jpg";
 import WillPicture from "../../public/profile-pictures/Will.png";
@@ -59,24 +59,6 @@ export type Signatures = {
 };
 
 export const signatures: Array<Signatures> = [
-  // {
-  //   image: RhodosPicture,
-  //   name: "Rhodos",
-  //   subject: "team figurehead",
-  //   age: "??",
-  //   location: "????? 🏴",
-  //   signature: RhodosSignature,
-  //   gold: false,
-  // },
-  {
-    image: JamesPicture,
-    name: "James Lin",
-    subject: "embeddings wrangler",
-    age: "20",
-    location: "Toronto 🇨🇦",
-    signature: JamesSignature,
-    gold: false,
-  },
   {
     image: WillPicture,
     name: "Will DePue",
@@ -87,11 +69,29 @@ export const signatures: Array<Signatures> = [
     gold: false,
   },
   {
+    image: JamesPicture,
+    name: "James Lin",
+    subject: "embeddings wrangler",
+    age: "20",
+    location: "Toronto 🇨🇦",
+    signature: JamesSignature,
+    gold: false,
+  },
+
+  {
     image: SuryaPicture,
     name: "Surya Dantuluri",
     subject: "adversarial employee",
     age: "20",
     location: "San Francisco 🇺🇸",
+    gold: false,
+  },
+  {
+    image: AnantPicture,
+    name: "Anant Sinha",
+    subject: "master of convolution",
+    age: "21",
+    location: "Boston 🇺🇸",
     gold: false,
   },
 ];

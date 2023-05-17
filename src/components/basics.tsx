@@ -286,6 +286,7 @@ export const MarqueeLayout: React.FC<{ children: JSX.Element }> = ({ children })
         gradient={true}
         gradientColor={[0, 0, 28]}
         speed={10}
+        direction="right"
       >
         {true &&
           Array(10)
