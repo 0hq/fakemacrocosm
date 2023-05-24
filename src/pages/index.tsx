@@ -65,16 +65,16 @@ const Home: NextPage = () => {
 
           <div className="mt-6 flex flex-wrap justify-between gap-3">
             <button
-              className="bold flex h-10 cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-8 font-button text-sm font-bold text-white"
+              className="bold flex h-10 cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
-                window.open("mailto:contact@macrocosm.so?subject=Getting%20early%20access...");
+                window.open("https://alex.macrocosm.so");
               }}
             >
-              Get early access
+              See our work
             </button>
             <button
-              className="bold flex h-10 cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-8 font-button text-sm font-bold text-white"
+              className="bold flex h-10 cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("mailto:contact@macrocosm.so?subject=Interested%20in%20joining%20the%20team...");
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
               Join our team
             </button>
             <button
-              className="bold flex h-10 cursor-pointer items-center justify-center  gap-7 rounded bg-[#191933] px-8 font-button text-sm font-bold text-white"
+              className="bold flex h-10 cursor-pointer items-center justify-center  gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("mailto:contact@macrocosm.so?subject=Reaching%20out...");
