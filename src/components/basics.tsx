@@ -271,9 +271,11 @@ export const MarqueeLayout: React.FC<{ children: JSX.Element }> = ({ children })
           Array(10)
             .fill(0)
             .map((_, i) => (
-              <p className="mt-2 mb-1.5 mr-12 text-white" key={i}>
-                HELP NEEDED TO: EMBED THE ARXIV
-              </p>
+              <Link href="https://alex.macrocosm.so" key={i}>
+                <p className="mt-2 mb-1.5 mr-12 text-white underline cursor-pointer" key={i}>
+                  ALEXANDRIA IS LIVE
+                </p>
+              </Link>
             ))}
       </Marquee>
       {children}

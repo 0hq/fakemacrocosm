@@ -68,10 +68,10 @@ const Home: NextPage = () => {
               className="bold flex h-10 cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
-                window.open("mailto:contact@macrocosm.so?subject=Getting%20early%20access...");
+                window.open("https://alex.macrocosm.so");
               }}
             >
-              Get early access
+              See our work
             </button>
             <button
               className="bold flex h-10 cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
