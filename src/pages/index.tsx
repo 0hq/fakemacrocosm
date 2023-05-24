@@ -65,7 +65,7 @@ const Home: NextPage = () => {
 
           <div className="mt-6 flex flex-wrap justify-between gap-3">
             <button
-              className="bold flex h-10 cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-6 font-button text-sm font-bold text-white"
+              className="bold flex flex-grow h-10 cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("https://alex.macrocosm.so");
