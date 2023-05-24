@@ -74,7 +74,7 @@ const Home: NextPage = () => {
               See our work
             </button>
             <button
-              className="bold flex h-10 cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
+              className="bold flex flex-grow h-10 cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("mailto:contact@macrocosm.so?subject=Interested%20in%20joining%20the%20team...");
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
               Join our team
             </button>
             <button
-              className="bold flex h-10 cursor-pointer items-center justify-center  gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
+              className="bold flex flex-grow h-10 cursor-pointer items-center justify-center  gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("mailto:contact@macrocosm.so?subject=Reaching%20out...");
