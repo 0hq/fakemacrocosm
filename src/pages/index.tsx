@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import LogoGroup from "../../public/other/LogoGroup.svg";
+import LogoGroup from "../../public/other/MacrocosmLogo.svg";
 import Guidance from "../../public/other/Guidance.png";
 import Tangibility from "../../public/other/Tangibility.png";
 import Community from "../../public/other/Community.png";
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           {/* <hr className={horizonal_rule} /> */}
           <h1 className="mb-4 mt-6 text-4xl font-bold text-white">We build digital tools to accelerate scientific research.</h1>
           <div className="mb-5 flex">
-            <Image src={LogoGroup} alt="The human colossus logo" />
+            <Image src={LogoGroup} height={19} width={240} alt="The human colossus logo" />
             <p className="m-0 ml-2.5 pt-0.5 font-mono text-sm text-[#747485]">/ May 1, 2023</p>
             <hr className={horizonal_rule} />
           </div>
