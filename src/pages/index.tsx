@@ -33,12 +33,12 @@ const Home: NextPage = () => {
           <hr className={classNames(horizonal_rule, "mb-2.5 mt-0")} />
           <p className={paragraph}>
             This group is part of an{" "}
-            <span className={highlight}>experiment in building digital projects with specific focus on civilizational scale and longtermism.</span> We're made
+            <span className={highlight}>experiment in building digital projects with specific focus on civilizational scale.</span> We're made
             up of a group of young people who enjoy tinkering on projects with high potential and immediate impact.
           </p>
           <p className={paragraph}>
             It's easier than it's ever been to build incredible things. The insane productivity that's being unlocked by AI is only going to accelerate, and
-            with it, the need for <span className={highlight}>high-agency people willing to</span> quickly take this technology and build products that
+            with it, the need for <span className={highlight}>agentic people willing to</span> quickly take this technology and build products that
             <span className={highlight}> solve issues that people didn't think were possible to solve</span>.
           </p>
 
