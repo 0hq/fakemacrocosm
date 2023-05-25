@@ -6,6 +6,7 @@ import { DefaultSeo } from "src/components/SEO";
 import { NextPage } from "next";
 import { AppProps } from "next/app";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export type NextPageWithAuth = NextPage & {
   auth?: boolean;
@@ -46,6 +47,7 @@ const MyApp = ({ Component, pageProps: { session, ...pageProps } }: AppPropsWith
         ) : (
           <Component {...pageProps} />
         )}
+        <Analytics />
       </PlausibleProvider>
     </SessionProvider>
   );
