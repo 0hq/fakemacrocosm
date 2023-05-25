@@ -1,9 +1,8 @@
 const siteMetaData = {
   keywords: ["", "", "", "", "", ""],
-  title: "The Macrocosm Corporation",
+  title: "The Macrocosm Consortium",
   titleAlt: "",
-  description:
-    "Civilization begins with order, grows with liberty, and dies with chaos. From barbarism to civilization requires a century; from civilization to barbarism needs but a day.",
+  description: "If you zoom out far enough, the human race appears to be just a single organism.",
   url: "https://www.macrocosm.so/",
   siteUrl: "https://www.macrocosm.so/",
   siteLanguage: "en-US",
@@ -11,12 +10,11 @@ const siteMetaData = {
   image: "https://www.myfirstnda.com/src/Thumbnail.png",
   favicon: "/favicon.ico",
   shortName: "Macrocosm",
-  author: "The Macrocosm Corporation",
+  author: "The Macrocosm Consortium",
   themeColor: "#000000",
   backgroundColor: "#ffffff",
-  twitterDesc:
-    "Civilization begins with order, grows with liberty, and dies with chaos. From barbarism to civilization requires a century; from civilization to barbarism needs but a day.",
-  twitter: "https://twitter.com/willdepue",
+  twitterDesc: "If you zoom out far enough, the human race appears to be just a single organism.",
+  twitter: "https://twitter.com/macrocosmcorp",
   locale: "en-US",
   ogLanguage: "en_US",
 };
