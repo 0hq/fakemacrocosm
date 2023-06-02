@@ -63,7 +63,7 @@ export const signatures: Array<Signatures> = [
     image: WillPicture,
     name: "Will DePue",
     subject: "gpt wizard",
-    age: "19",
+    age: "20",
     location: "Los Angeles 🇺🇸",
     signature: WillSignature,
     gold: false,
@@ -92,6 +92,14 @@ export const signatures: Array<Signatures> = [
     subject: "master of convolution",
     age: "21",
     location: "Boston 🇺🇸",
+    gold: false,
+  },
+  {
+    image: SauravPicture,
+    name: "Saurav Kumar",
+    subject: "matmul alchemist",
+    age: "20",
+    location: "San Francisco 🇺🇸",
     gold: false,
   },
 ];

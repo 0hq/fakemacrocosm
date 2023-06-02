@@ -32,9 +32,8 @@ const Home: NextPage = () => {
           </div>
           <hr className={classNames(horizonal_rule, "mb-2.5 mt-0")} />
           <p className={paragraph}>
-            This group is part of an{" "}
-            <span className={highlight}>experiment in building digital projects with specific focus on civilizational scale.</span> We're made
-            up of a group of young people who enjoy tinkering on projects with high potential and immediate impact.
+            This group is part of an <span className={highlight}>experiment in building digital projects with specific focus on civilizational scale.</span>{" "}
+            We're made up of a group of young people who enjoy tinkering on projects with high potential and immediate impact.
           </p>
           <p className={paragraph}>
             It's easier than it's ever been to build incredible things. The insane productivity that's being unlocked by AI is only going to accelerate, and
@@ -65,7 +64,7 @@ const Home: NextPage = () => {
 
           <div className="mt-6 flex flex-wrap justify-between gap-3">
             <button
-              className="bold flex flex-grow h-10 cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-6 font-button text-sm font-bold text-white"
+              className="bold flex h-10 flex-grow cursor-pointer items-center justify-center rounded bg-[#5f4bdd] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("https://alex.macrocosm.so");
@@ -74,7 +73,7 @@ const Home: NextPage = () => {
               See our work
             </button>
             <button
-              className="bold flex flex-grow h-10 cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
+              className="bold flex h-10 flex-grow cursor-pointer items-center justify-center gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("mailto:contact@macrocosm.so?subject=Interested%20in%20joining%20the%20team...");
@@ -83,7 +82,7 @@ const Home: NextPage = () => {
               Join our team
             </button>
             <button
-              className="bold flex flex-grow h-10 cursor-pointer items-center justify-center  gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
+              className="bold flex h-10 flex-grow cursor-pointer items-center justify-center  gap-7 rounded bg-[#191933] px-6 font-button text-sm font-bold text-white"
               onClick={() => {
                 plausible("clicked-contact");
                 window.open("mailto:contact@macrocosm.so?subject=Reaching%20out...");
@@ -92,9 +91,9 @@ const Home: NextPage = () => {
               Contact us
             </button>
           </div>
-          <div className="mt-12 mb-6 h-[270px] rounded-lg bg-[#00001c] px-4 pb-4 pt-1.5 shadow-custom">
+          <div className="mt-12 mb-6 h-[290px] rounded-lg bg-[#00001c] px-4 pb-4 pt-1.5 shadow-custom">
             <h1 className="z-10 w-full bg-[#00001c] pt-1 font-semibold	">/ Signatures</h1>
-            <div className="mt-3 flex h-52 flex-col gap-3.5 overflow-auto rounded">
+            <div className="mt-3 flex h-[230px] flex-col gap-3.5 overflow-auto rounded">
               {signatures.map((signature, i) => (
                 <div className="static flex h-10 items-center justify-between" key={i}>
                   <div className="flex shrink-0">
